@@ -43,16 +43,16 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-.header-link: focus {
+.header-link:focus {
 color: #404bbf;
 }
 
-.header-link: hover {
+.header-link:hover {
 color: #404bbf;
 }
 
 
-.header-link: active {
+.header-link:active {
     color: #404BBF;
 }
 
@@ -66,11 +66,11 @@ color: #404bbf;
         font-style: normal;
 }
 
-.header-address-list: hover {
+.header-address-list:hover {
     color: #404bbf;
 }
 
-.header-address-list: focus {
+.header-address-list:focus {
     color: #404bbf;
 }
 
@@ -81,7 +81,7 @@ color: #404bbf;
 .mail active {
 
 }
-.header-address-link: active {
+.header-address-link:active {
     color: #404BBF
 }
 
@@ -112,11 +112,11 @@ background: var(--IRIS, #4D5AE5);
 cursor: pointer
 }
 
-.caption-button: hover {
+.caption-button:hover {
     background-color: #404BBF;
 
 }
-.caption-button: focus {
+.caption-button:focus {
     background-color: #404BBF;
 }
 
