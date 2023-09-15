@@ -42,6 +42,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.studio { 
+color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.studio :focus {
+    color: #404bbf;
+}
+.studio :hover {
+    color: #404bbf;
+}
+
+
 .header-link :active {
     color: #404BBF;
 }
@@ -49,11 +61,19 @@ letter-spacing: 0.02em;
 .header-address {}
 
 .header-address-list {
-        color: #434455
+        color:  #434455
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
+}
+
+.header-address-list hover {
+    color: #404bbf;
+}
+
+.header-address-list focus {
+    color: #404bbf;
 }
 
 .header-address-item {
@@ -95,11 +115,11 @@ cursor: pointer
 }
 
 .caption-button hover {
-    background-color:#404BBF;
+    background-color: #404BBF;
 
 }
 .caption-button focus {
-    background-color: #404BBF 
+    background-color: #404BBF;
 }
 
 /*  */
