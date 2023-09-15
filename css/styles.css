@@ -8,6 +8,8 @@ ul {list-style: none;}
 
 a {text-decoration: none;}
 
+address {font-style: normal}
+
 .visually-hidden {
     margin: -1px;
     white-space: nowrap;
@@ -41,20 +43,16 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-
-.studio { 
-color: var(--NAVY-BLUE, #2E2F42);
+.header-link: focus {
+color: #404bbf;
 }
 
-.studio :focus {
-    color: #404bbf;
-}
-.studio :hover {
-    color: #404bbf;
+.header-link: hover {
+color: #404bbf;
 }
 
 
-.header-link :active {
+.header-link: active {
     color: #404BBF;
 }
 
@@ -68,11 +66,11 @@ color: var(--NAVY-BLUE, #2E2F42);
         font-style: normal;
 }
 
-.header-address-list hover {
+.header-address-list: hover {
     color: #404bbf;
 }
 
-.header-address-list focus {
+.header-address-list: focus {
     color: #404bbf;
 }
 
@@ -83,7 +81,7 @@ color: var(--NAVY-BLUE, #2E2F42);
 .mail active {
 
 }
-.header-address-link active {
+.header-address-link: active {
     color: #404BBF
 }
 
@@ -114,11 +112,11 @@ background: var(--IRIS, #4D5AE5);
 cursor: pointer
 }
 
-.caption-button hover {
+.caption-button: hover {
     background-color: #404BBF;
 
 }
-.caption-button focus {
+.caption-button: focus {
     background-color: #404BBF;
 }
 
