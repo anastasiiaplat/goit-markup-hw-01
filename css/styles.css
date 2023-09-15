@@ -8,7 +8,7 @@ ul {list-style: none;}
 
 a {text-decoration: none;}
 
-address {font-style: normal}
+address {font-style: normal;}
 
 .visually-hidden {
     margin: -1px;
@@ -59,7 +59,7 @@ color: #404bbf;
 .header-address {}
 
 .header-address-list {
-        color:  #434455
+        color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
