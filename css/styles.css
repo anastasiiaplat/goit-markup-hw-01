@@ -37,7 +37,7 @@ address {font-style: normal;}
 .header-item {}
 
 .header-link {
-    color: #434455;
+    color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
@@ -53,16 +53,10 @@ color: #404bbf;
 .header-address {}
 
 .header-address-list {
-        color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+        
         font-style: normal;
 }
 
-.header-address-list:hover, .header-address-list:focus {
-    color: #404bbf;
-}
 
 
 
@@ -70,18 +64,28 @@ color: #404bbf;
     
 }
 
-.mail active {
+.header-address-link {
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 
+.header-address-link:hover, .header-address-link:focus {
+    color: #404bbf;
 }
 
 
-.section-caption {
-    background: var(--NAVY-BLUE, #2E2F42);
-}
+
+
 
 /*  */
 
 /* section-caption */
+
+.section-caption {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
 
 .caption {
     color: var(--WHITE, #FFFFFF);
