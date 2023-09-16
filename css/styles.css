@@ -37,7 +37,7 @@ address {font-style: normal;}
 .header-item {}
 
 .header-link {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #434455;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
