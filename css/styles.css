@@ -43,13 +43,11 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-.header-link:focus {
+.header-link:focus, .header-link:hover {
 color: #404bbf;
 }
 
-.header-link:hover {
-color: #404bbf;
-}
+
 
 
 .header-link:active {
@@ -66,13 +64,11 @@ color: #404bbf;
         font-style: normal;
 }
 
-.header-address-list:hover {
+.header-address-list:hover, .header-address-list:focus {
     color: #404bbf;
 }
 
-.header-address-list:focus {
-    color: #404bbf;
-}
+
 
 .header-address-item {
     
@@ -81,9 +77,7 @@ color: #404bbf;
 .mail active {
 
 }
-.header-address-link:active {
-    color: #404BBF
-}
+
 
 .section-caption {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -112,13 +106,10 @@ background: var(--IRIS, #4D5AE5);
 cursor: pointer
 }
 
-.caption-button:hover {
+.caption-button:hover, .caption-button:focus {
     background-color: #404BBF;
+}
 
-}
-.caption-button:focus {
-    background-color: #404BBF;
-}
 
 /*  */
 
