@@ -90,7 +90,6 @@ color: #404bbf;
 .caption {
     color: var(--WHITE, #FFFFFF);
 font-size: 56px;
-font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
 text-align: center;
@@ -103,7 +102,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background: var(--IRIS, #4D5AE5);
-cursor: pointer
 }
 
 .caption-button:hover, .caption-button:focus {
@@ -180,7 +178,6 @@ letter-spacing: 0.02em;
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42); 
         font-size: 36px;
-        font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
